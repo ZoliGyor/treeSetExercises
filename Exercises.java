@@ -56,6 +56,16 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise6(TreeSet<String> set1, TreeSet<String> set2)
+    {
+        System.out.println("6th exercise: Write a Java program to clone a tree set list to another tree set");
+        System.out.println("1st set: " + set1);
+        System.out.println("2nd set: " + set2);
+        set2 = (TreeSet<String>) set1.clone();
+        System.out.println("2nd set after cloning: " + set2);
+        System.out.println();
+    }
+
     public TreeSet<String> getSet()
     {
         return set;
