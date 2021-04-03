@@ -74,6 +74,23 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise8(TreeSet<String> set1, TreeSet<String> set2)
+    {
+        System.out.println("8th exercise: Write a Java program to compare two tree sets");
+        System.out.println("The first set: " + set1);
+        System.out.println("The second set: " + set2);
+        boolean theyAreSame = true;
+        if(set1.size() != set2.size() || !set1.containsAll(set2)){
+            theyAreSame = false;
+        }
+        if(theyAreSame){
+            System.out.println("The sets are the same");
+        }else{
+            System.out.println("The sets are not the same");
+        }
+        System.out.println();
+    }
+
     public TreeSet<String> getSet()
     {
         return set;
