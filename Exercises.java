@@ -48,6 +48,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise5(TreeSet<String> set)
+    {
+        System.out.println("5th exercise: Write a Java program to get the first and last elements in a tree set");
+        System.out.println("The first elemenet of the set is: " + set.first());
+        System.out.println("The last elemenet of the set is: " + set.last());
+        System.out.println();
+    }
+
     public TreeSet<String> getSet()
     {
         return set;
