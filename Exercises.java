@@ -158,6 +158,20 @@ public class Exercises {
         System.out.println();
     }
 
+
+    public void exercise16(TreeSet<Integer> intSet, int element)
+    {
+        System.out.println("16th exercise: Write a Java program to remove a given element from a tree set");
+        System.out.println(intSet);
+        if(!intSet.remove(element)){
+            System.out.println("The element is not in the set");
+        }else{
+            intSet.remove(element);
+            System.out.println(intSet);
+        }
+        System.out.println();
+    }
+
     public TreeSet<String> getStringSet()
     {
         return stringSet;
