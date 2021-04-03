@@ -116,6 +116,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise11(TreeSet<Integer> intSet, int element)
+    {
+        System.out.println("11th exercise: Write a Java program to get the element in a tree set which is less than or equal to the given element");
+        System.out.println(intSet);
+        System.out.println(intSet.headSet(element, true));
+        System.out.println();
+    }
+
     public TreeSet<String> getStringSet()
     {
         return stringSet;

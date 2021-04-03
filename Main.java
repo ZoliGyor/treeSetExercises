@@ -15,5 +15,6 @@ public class Main {
         treeSet1.exercise8(treeSet1.getStringSet(), treeSet2.getStringSet());
         treeSet1.exercise9(treeSet1.getIntSet());
         treeSet1.exercise10(treeSet1.getIntSet(), 5);
+        treeSet1.exercise11(treeSet1.getIntSet(), 5);
     }
 }
