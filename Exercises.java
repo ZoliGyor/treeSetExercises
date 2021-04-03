@@ -66,6 +66,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise7(TreeSet<String> set)
+    {
+        System.out.println("7th exercise: Write a Java program to get the number of elements in a tree set");
+        System.out.println(set);
+        System.out.println("The size of the set is: " + set.size());
+        System.out.println();
+    }
+
     public TreeSet<String> getSet()
     {
         return set;
