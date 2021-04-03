@@ -140,6 +140,15 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise14(TreeSet<Integer> intSet)
+    {
+        System.out.println("14th exercise: Write a Java program to retrieve and remove the first element of a tree set");
+        System.out.println(intSet);
+        System.out.println("The first element is: " + intSet.pollFirst());
+        System.out.println("After removing the first element, the set looks like this: " + intSet);
+        System.out.println();
+    }
+
     public TreeSet<String> getStringSet()
     {
         return stringSet;
