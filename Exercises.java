@@ -41,6 +41,13 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise4(TreeSet<String> set)
+    {
+        System.out.println("4th exercise: Write a Java program to create a reverse order view of the elements contained in a given tree set");
+        System.out.println(set.descendingSet());
+        System.out.println();
+    }
+
     public TreeSet<String> getSet()
     {
         return set;

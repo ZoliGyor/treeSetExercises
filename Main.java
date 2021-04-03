@@ -8,5 +8,6 @@ public class Main {
 
         treeSet1.exercise2(treeSet1.getSet());
         treeSet1.exercise3(treeSet1.getSet(), treeSet2.getSet());
+        treeSet1.exercise4(treeSet1.getSet());
     }
 }
