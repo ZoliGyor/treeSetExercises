@@ -105,6 +105,15 @@ public class Exercises {
         System.out.println("9th exercise: Write a Java program to find the numbers less than 7 in a tree set");
         System.out.println(intSet);
         System.out.println(intSet.headSet(7));
+        System.out.println();
+    }
+
+    public void exercise10(TreeSet<Integer> intSet, int element)
+    {
+        System.out.println("10th exercise: Write a Java program to get the element in a tree set which is greater than or equal to the given element");
+        System.out.println(intSet);
+        System.out.println(intSet.tailSet(element, true));
+        System.out.println();
     }
 
     public TreeSet<String> getStringSet()
