@@ -149,6 +149,15 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise15(TreeSet<Integer> intSet)
+    {
+        System.out.println("15th exercise: Write a Java program to retrieve and remove the last element of a tree set");
+        System.out.println(intSet);
+        System.out.println("The last element is: " + intSet.pollLast());
+        System.out.println("After removing the last element, the set looks like this: " + intSet);
+        System.out.println();
+    }
+
     public TreeSet<String> getStringSet()
     {
         return stringSet;
