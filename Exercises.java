@@ -124,6 +124,14 @@ public class Exercises {
         System.out.println();
     }
 
+    public void exercise12(TreeSet<Integer> intSet, int element)
+    {
+        System.out.println("12th exercise: Write a Java program to get the element in a tree set which is strictly greater than or equal to the given element");
+        System.out.println(intSet);
+        System.out.println(intSet.higher(element));
+        System.out.println();
+    }
+
     public TreeSet<String> getStringSet()
     {
         return stringSet;
