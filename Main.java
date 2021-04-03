@@ -3,5 +3,6 @@ public class Main {
         Exercises treeSet1 = new Exercises();
 
         treeSet1.exercise1(treeSet1.getSet());
+        treeSet1.exercise2(treeSet1.getSet());
     }
 }
